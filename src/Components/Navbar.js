@@ -11,11 +11,11 @@ const Navbar = () => {
   };
 
   return (
-    <div >
+    <div>
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <img src="gbr3.png" alt="Logo" border="0" width="100" height="100"/>
+          <img src="gbr3.png" alt="logo" />
         </Link>
         <div className="menu-icon" onClick={toggleMenu}>
           {isOpen ? <FaTimes /> : <FaBars />}
@@ -42,13 +42,32 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <NavLink
-              to="/contact"
+              to="/gallery"
               activeClassName="active"
               onClick={toggleMenu}
-            >
-              Contact
-            </NavLink>
-          </li>
+              >
+                Gallery
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                to="/policy"
+                activeClassName="active"
+                onClick={toggleMenu}  
+                >
+              Policy
+
+                </NavLink>
+              </li>
+              <button>
+                <NavLink
+                to="/contact"
+                activeClassName="active"
+                onClick={toggleMenu}
+                    >
+              Get in touch
+                </NavLink>
+              </button>
         </ul>
       </div>
     </nav>
