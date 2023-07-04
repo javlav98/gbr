@@ -1,5 +1,7 @@
 import React from 'react';
 import './HomeMaterial.css'
+import TextTransition from './FadeinEffect';
+
 
 function Background () {
     return (
@@ -13,7 +15,6 @@ function Background () {
           position: 'absolute',
           zIndex: '-1',
           top: '0',
-          
         }}>
         
         </div>
@@ -23,6 +24,7 @@ function Background () {
 export default function HomeMaterial () {
   return (
     <div>
+      <TextTransition />
       <Background />
     </div>
   )
