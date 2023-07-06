@@ -27,12 +27,13 @@
   display: flex;
   align-items: center;
   list-style: none;
+  
 
 }
 
 .nav-item a {
   margin-right: 16px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Quicksand;
   font-size: 18px;
   text-decoration: none;
   color: #000000;
@@ -63,7 +64,7 @@ button {
 button a {
   text-decoration: none;
   color: #ffffff;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: quicksand;
 }
 
 img {
@@ -92,9 +93,10 @@ img {
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
-    background-color: rgba(0, 0, 0, 0.5); /* Red with 50% transparency */
+    background-color: rgba(0, 0, 0, 0.8); /* Red with 50% transparency */
     padding-left: 24px;
     padding-top: 150px ;
+    z-index: 999;
 
   }
 
@@ -110,10 +112,10 @@ img {
 
   .nav-item a {
     margin-right: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-family: Quicksand; 
     font-size: 18px;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     margin-left: 15px;
 
   }
