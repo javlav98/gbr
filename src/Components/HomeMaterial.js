@@ -15,6 +15,7 @@ function Background () {
           position: 'absolute',
           zIndex: '-1',
           top: '0',
+          opacity: '0.9'
         }}>
         
         </div>
