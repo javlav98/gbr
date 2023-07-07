@@ -1,0 +1,82 @@
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: quicksand;
+  }
+
+  .secondButton {
+    background-color: transparent;
+    width: 130px;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 5px;
+  
+  }
+  
+ .secondButton a {
+    text-decoration: none;
+    color: #000000;
+    font-family: quicksand;
+    font-size: 18px;
+  
+  }
+  
+  .secondButton a:hover {
+    color: #787878;
+    transition: all 0.3s ease;
+  }
+
+  @media screen and (max-width: 500px) {
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+        font-family: quicksand;
+    }
+    .secondButton {
+        background-color: transparent;
+        width: 130px;
+        border: 1px solid #000000;
+        padding: 10px;
+        border-radius: 5px;
+      
+      }
+      
+     .secondButton a {
+        text-decoration: none;
+        color: #000000;
+        font-family: quicksand;
+        font-size: 18px;
+      
+      }
+      
+      .secondButton a:hover {
+        color: #787878;
+        transition: all 0.3s ease;
+      }
+    
+  }

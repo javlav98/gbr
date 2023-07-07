@@ -1,32 +1,33 @@
 import React from 'react';
-import './HomeMaterial.css'
-import TextTransition from './FadeinEffect';
+import './HomeMaterial.css';
 
-
-function Background () {
-    return (
-        <div style={{
-          backgroundImage: `url("bg1.jpg")`,
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          height:'100vh',
-          width: '100%',
-          position: 'absolute',
-          zIndex: '-1',
-          top: '0',
-          opacity: '0.9'
-        }}>
-        
-        </div>
-    )
+function Background() {
+  return (
+    <div className="video-background">
+      <video autoPlay loop muted playsInline>
+        <source src={process.env.PUBLIC_URL + '/desert.mp4'} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  );
 }
 
-export default function HomeMaterial () {
+function  HomeText (){
+  return (
+    <div className="text">
+      <h1>Go Anywhere, Anytime!</h1>
+      <p>Get the best deals on the best gear!</p>
+      <button className='secondButton'>Shop Now</button>
+    </div>
+  );
+}
+
+
+export default function HomeMaterial() {
   return (
     <div>
-      <TextTransition />
       <Background />
+      <HomeText />
     </div>
-  )
+  );
 }

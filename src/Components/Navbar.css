@@ -3,6 +3,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.1); /* Red with 50% transparency */
+  
+  
 }
 
 .navbar-container {
@@ -27,8 +30,6 @@
   display: flex;
   align-items: center;
   list-style: none;
-  
-
 }
 
 .nav-item a {
@@ -37,7 +38,6 @@
   font-size: 18px;
   text-decoration: none;
   color: #000000;
-
 }
 
 .nav-item a:hover {
@@ -49,27 +49,31 @@
   font-weight: bold;
 }
 
-button {
-  background-color: black;
-  border: none;
-  border-radius: 10px;
-  color: #ffffff;
-  padding: 13px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.3s ease;
+.firstButton {
+  background-color: transparent;
+  width: 130px;
+  border: 1px solid #000000;
+  padding: 10px;
+  border-radius: 5px;
 
 }
 
-button a {
+.firstButton a {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   font-family: quicksand;
+  font-size: 18px;
+
+}
+
+.firstButton a:hover {
+  color: #787878;
+  transition: all 0.3s ease;
 }
 
 img {
-  width: 30%;
-  height: 30%;
+  width:35%;
+  height: 35%;
   margin-top: 110px;
 
 }
@@ -93,9 +97,9 @@ img {
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
-    background-color: rgba(0, 0, 0, 0.8); /* Red with 50% transparency */
+    background-color: white; /* Red with 50% transparency */
     padding-left: 24px;
-    padding-top: 150px ;
+    padding-top: 100px;
     z-index: 999;
 
   }
@@ -115,15 +119,45 @@ img {
     font-family: Quicksand; 
     font-size: 18px;
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     margin-left: 15px;
 
   }
 
   img {
-    width: 30%;
+    width: 40%;
     height: 30%;
     margin-top: 60px;
   }
+
+  .navbar-logo {
+    margin-left: 10px;
+    margin-top: 50px;
+    
+  }
+
+  .firstButton {
+    font-size: 16px;
+    margin-left: 0px;
+    margin-right: -5px;
+    border: none;
+    background-color: transparent;
+    width: 100px;
+    margin-top: 30px;
+  
+  }
+
+.firstButton a {
+  text-decoration: none;
+  color: #000000;
+  font-family: quicksand;
+  font-size: 18px;
+
+}
+
+.firstButton a:hover {
+  color: #787878;
+  transition: all 0.3s ease;
+}
 
 }
