@@ -52,7 +52,7 @@
 .firstButton {
   background-color: transparent;
   width: 130px;
-  border: 1px solid #000000;
+  border: 0.5px solid #000000;
   padding: 10px;
   border-radius: 5px;
 
@@ -69,6 +69,7 @@
 .firstButton a:hover {
   color: #787878;
   transition: all 0.3s ease;
+
 }
 
 img {
