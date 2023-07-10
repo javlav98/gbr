@@ -1,6 +1,14 @@
 import React from 'react';
 import './HomeMaterial.css';
 
+function ButtonClick() { 
+  return (
+    <div>
+      <button className="secondButton">Get in touch</button>
+    </div>
+  );
+}
+
 function Background() {
   return (
     <div className="video-background">
@@ -16,8 +24,7 @@ function  HomeText (){
   return (
     <div className="text">
       <h1>Go Anywhere, Anytime!</h1>
-      <p>Get the best deals on the best gear!</p>
-      <button className='secondButton'>Shop Now</button>
+      <p>Affordable trailer rentals in the Inland Empire </p>
     </div>
   );
 }
@@ -28,6 +35,7 @@ export default function HomeMaterial() {
     <div>
       <Background />
       <HomeText />
+      <ButtonClick/>
     </div>
   );
 }

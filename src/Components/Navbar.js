@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <img src={process.env.PUBLIC_URL + '/gbr3.png'} alt="logo" />
+          <h1>GBRentals</h1>
         </Link>
         <div className="menu-icon" onClick={toggleMenu}>
           {isOpen ? <FaTimes /> : <FaBars />}
@@ -51,20 +51,11 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
             <NavLink
-              to="/products"
+              to="/gallery"
               activeClassName="active"
               onClick={toggleMenu}
               >
-                Products
-                </NavLink>
-              </li>
-              <li className="nav-item">
-            <NavLink
-              to="/Prices"
-              activeClassName="active"
-              onClick={toggleMenu}
-              >
-                Prices
+                Pricing
                 </NavLink>
               </li>
               <button className='firstButton'>
