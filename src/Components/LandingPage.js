@@ -53,7 +53,7 @@ const LandingPage = () => {
         <div className="overlay"></div>
         <div className="header-content">
           <h1>Go Anywhere, Anytime!</h1>
-          <p>Affordable trailer rentals in the Inland Empire | Open 7 days a week | 8am - 5pm </p>
+          <p>Affordable trailer rentals in the Inland Empire | Open 7 days a week | 8am - 5pm | Mon - Sun </p>
           <button>Get in Touch</button>
         </div>
       </header>
