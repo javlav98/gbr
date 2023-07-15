@@ -5,7 +5,7 @@ import './Carousel.css';
 
 const CarouselExample = () => {
   return (
-    <Carousel className='custom-carousel'>
+    <Carousel className='custom-carousel' infiniteLoop={true} autoPlay={true}>
       <div className='img'>
         <img src="img1.png" alt="Image 1" />
       </div>
