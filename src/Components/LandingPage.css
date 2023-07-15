@@ -6,7 +6,6 @@
         position: fixed;
         background-color: white;
         width: 100%;
-        height: 60px;
         z-index: 999;
     }
 
@@ -226,6 +225,17 @@
         background-color: #000000;
         color: white;
         cursor: pointer;
+    }
+
+/* Footer css */
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem 0;
+        font-family: quicksand, sans-serif, Arial, Helvetica;
     }
 
 

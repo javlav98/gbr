@@ -92,7 +92,7 @@ const LandingPage = () => {
         </section>
       </main>
       <footer>
-        <p>&copy; 2023 My Website. All rights reserved.</p>
+        <p>&copy; 2023 GBRentals. All rights reserved.</p>
       </footer>
     </div>
   );
