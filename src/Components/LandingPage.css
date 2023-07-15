@@ -40,7 +40,6 @@
 
     .navbuttons li a:hover {
         color: #000000;
-        filter: blur(1px);
     }
 
 /* Header css */
@@ -107,9 +106,6 @@
         cursor: pointer;
     }
 
-    .header-content button:hover {
-        filter: blur(1px);
-    }
 
 /* About css */
 
