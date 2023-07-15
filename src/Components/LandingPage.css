@@ -31,7 +31,7 @@
     }
 
     .navbuttons li a {
-        font-family: quicksand;
+        font-family: quicksand, sans-serif, Arial, Helvetica;
         font-size: 1rem;
         font-weight: 500;
         color: #000000;
@@ -78,7 +78,7 @@
     .header-content {
         position: relative;
         z-index: 1;
-        font-family: quicksand;
+        font-family: quicksand, sans-serif, Arial, Helvetica;
         color: white;
         padding-left: 0.5rem;
         margin-top: 500px;
@@ -120,7 +120,7 @@
         align-items: center;
         flex-direction: column;
         padding: 2rem 0;
-        font-family: quicksand;
+        font-family: quicksand, sans-serif, Arial, Helvetica;
     }
 
     #About h2 {
@@ -150,12 +150,12 @@
         align-items: center;
         flex-direction: column;
         padding: 2rem 0;
-        font-family: quicksand;
+        font-family: quicksand, sans-serif, Arial, Helvetica;
     }
 
 
     #Gallery h2 {
-        font-family: quicksand;
+        font-family: quicksand, sans-serif, Arial, Helvetica;
         font-weight: 700;
         color: #000000;
         text-decoration: none;
@@ -174,7 +174,7 @@
         align-items: center;
         flex-direction: column;
         padding: 2rem 0;
-        font-family: quicksand;
+        font-family: quicksand, sans-serif, Arial, Helvetica;
     }
 
     #Contact h2 {
@@ -203,7 +203,7 @@
         padding: 0.5rem 1rem;
         border: 1px solid #000000;
         border-radius: 5px;
-        font-family: quicksand;
+        font-family: quicksand, sans-serif, Arial, Helvetica;
         font-size: 1rem;
         font-weight: 500;
         margin-bottom: 0.5rem;
@@ -215,7 +215,7 @@
         padding: 0.5rem 1rem;
         border: 1px solid #000000;
         border-radius: 5px;
-        font-family: quicksand;
+        font-family: quicksand, sans-serif, Arial, Helvetica;
         font-size: 1rem;
         font-weight: 500;
         margin-bottom: 0.5rem;
@@ -295,7 +295,7 @@
         }
 
         .header-content {
-            margin-top: 450px;
+            margin-top: 475px;
         }
         .header-content h1 {
             font-size: 2rem;
