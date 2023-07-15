@@ -1,10 +1,11 @@
 import React from 'react'
-import LandingPage from './Components/LandingPage'
+import Navroute from './Router/Navroute'
+
 
 export default function App() {
   return (
     <div>
-      <LandingPage />
+      <Navroute />
     </div>
   )
 }
