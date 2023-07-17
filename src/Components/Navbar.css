@@ -25,7 +25,7 @@
     display: none;
     color: #000000;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 16px;
     font-family: QuickSand, sans-serif;
     margin-right: 20px;
   }
@@ -34,22 +34,24 @@
     display: flex;
     align-items: center;
     list-style: none;
+    z-index: 1;
   }
   
   .linkContainer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     width: 100%;
-    margin-right: 750px;
-  }
+    margin-right: 20px;
+}
 
     .linkContainer a {
         font-family: QuickSand, sans-serif;
         text-decoration: none;
         color: #000000;
-        margin-left: 10px;
-        font-size: 18px;
+        margin-left: 20px;
+        font-size: 16px;
     }
 
     .linkContainer a:hover {
@@ -128,7 +130,25 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin-right: 30px;
+        margin-top: 225px;
     }
   }
+
+  @media screen and (min-width: 501px) and (max-width: 1274px) {
+    .linkContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        margin-right: 20px;
+    }
+    .SocialMedia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+  }
+    
   
