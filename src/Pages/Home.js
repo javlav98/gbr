@@ -4,7 +4,7 @@ import './Home.css';
 function Background () {
   return (
     <div className="video-container">
-    <video autoPlay muted loop className="video">
+    <video autoPlay muted loop playsInline className="video">
       <source src="/desert.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
