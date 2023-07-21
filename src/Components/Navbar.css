@@ -12,20 +12,20 @@
     align-items: center;
     width: 100%;
   }
-  
   .navbar-logo {
     color: #000000;
     text-decoration: none;
     font-family: QuickSand, sans-serif;
     margin-left: 20px;
     font-size: 20px;
+    font-weight: bolder;
   }
   
   .menu-icon {
     display: none;
     color: #000000;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     font-family: QuickSand, sans-serif;
     margin-right: 20px;
   }

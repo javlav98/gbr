@@ -1,0 +1,33 @@
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    font-family: quicksand;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.aboutContent h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+
+.aboutContent h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-align: center;
+}

@@ -32,9 +32,9 @@
     font-size: 1.5rem;
     font-weight: 700;
     padding: 1rem 2rem;
-    border: none;
+    border: 1px solid white;
     border-radius: 5px;
-    background-color: #f1356d;
+    background-color: transparent;
     color: white;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
