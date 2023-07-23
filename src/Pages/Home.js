@@ -15,7 +15,7 @@ function Background () {
 function Content () { 
   return (
     <div className="content">
-      <h1>Go anywhere, anytime!</h1>
+      <h1>Go anywhere, anytime! </h1>
       <p>Affordable trailer rentals in the Inland Empire | Open 7 days a week | 5am - 9pm  </p>
       <button className="btn">Get in touch</button>
     </div>
